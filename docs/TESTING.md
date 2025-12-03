@@ -1,19 +1,50 @@
 # Model Testing Guide
 
-## Verified Working Models
+## ✅ Verified Working Models (Tested & Confirmed)
 
-All models below have been verified to exist on HuggingFace with proper ONNX format.
+These models have been confirmed to work with Transformers.js and are set as defaults:
+
+### ⭐ Xenova/distilgpt2 (NEW DEFAULT)
+- **Size**: ~150MB
+- **Parameters**: 82M
+- **Status**: ✅ CONFIRMED WORKING
+- **Config**: https://huggingface.co/Xenova/distilgpt2
+- **Notes**: Fast, reliable, best for testing and low-end devices
+- **RAM Required**: ~800MB
+- **Expected Load Time**: 5-10s first load, instant after cache
+- **Why Default**: Has correct ONNX file structure, loads reliably
+
+### Xenova/gpt2
+- **Size**: ~250MB
+- **Parameters**: 124M
+- **Status**: ✅ CONFIRMED WORKING
+- **Notes**: Original OpenAI GPT-2, good baseline
+- **RAM Required**: ~1GB
+- **Expected Load Time**: 10-15s first load
+
+### Xenova/stablelm-2-zephyr-1_6b
+- **Size**: ~1GB
+- **Parameters**: 1.6B
+- **Status**: ✅ CONFIRMED WORKING
+- **Notes**: Best quality among verified models, instruction-tuned
+- **RAM Required**: ~3.5GB
+- **Expected Load Time**: 30-60s first load
+
+## ⚠️ Models Requiring Latest Transformers.js
+
+The following models exist on HuggingFace but use newer ONNX file naming. They may work with the latest version of Transformers.js (now enabled):
 
 ### 🏆 Best for Chat (Tier 1)
 
-#### ⭐ onnx-community/Qwen2.5-1.5B (DEFAULT)
+#### onnx-community/Qwen2.5-1.5B (Previously DEFAULT)
 - **Size**: ~900MB
 - **Parameters**: 1.5B
-- **Status**: ✅ Verified
+- **Status**: ✅ On HuggingFace (⚠️ Needs browser testing with latest Transformers.js)
 - **Config**: https://huggingface.co/onnx-community/Qwen2.5-1.5B
 - **Notes**: Excellent quality/speed balance, instruction-tuned
 - **RAM Required**: ~3GB
 - **Expected Load Time**: 30-60s first load, instant after cache
+- **Issue**: Uses new ONNX file naming (model_quantized.onnx vs decoder_model_merged_quantized.onnx)
 
 #### onnx-community/Phi-3.5-mini-instruct-onnx-web
 - **Size**: ~2.3GB

@@ -25,8 +25,8 @@ export class ModelManager {
         this.isLoaded = false;
 
         try {
-            // Import Transformers.js dynamically (using v2.17.2 which is more stable)
-            const { pipeline, env } = await import('https://cdn.jsdelivr.net/npm/@xenova/transformers@2.17.2');
+            // Import Transformers.js dynamically (using latest version for best model compatibility)
+            const { pipeline, env } = await import('https://cdn.jsdelivr.net/npm/@xenova/transformers@latest');
 
             // Force use of remote models from HuggingFace CDN ONLY
             env.allowRemoteModels = true;
