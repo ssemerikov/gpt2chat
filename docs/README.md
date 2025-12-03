@@ -129,11 +129,33 @@ docs/
 - Auto-cleanup keeps 20 most recent conversations
 - Settings stored separately
 
-### Models
+### Available Models
 
-- **GPT-2** (Xenova/gpt2): 124M parameters, ~250MB download
-- **DistilGPT-2** (Xenova/distilgpt2): 82M parameters, ~150MB download
-- Models cached in IndexedDB by Transformers.js (instant subsequent loads)
+All models load from HuggingFace CDN and are cached in IndexedDB for instant subsequent loads.
+
+**GPT-2 Models (Classic):**
+- **DistilGPT-2** (82M, ~150MB) - Fastest, good for quick responses
+- **GPT-2** (124M, ~250MB) - Balanced performance and quality
+- **GPT-2 Medium** (355M, ~700MB) - Better quality, slower
+
+**Small Instruct Models (Recommended for chat):**
+- **Qwen2.5 0.5B** (~300MB) - Very fast, good quality, instruction-tuned
+- **Qwen2.5 1.5B** (~900MB) - High quality responses, still fast
+- **TinyLlama 1.1B** (~650MB) - Optimized for chat, good balance
+
+**Advanced Models (Require 8GB+ RAM):**
+- **Phi-3 Mini 4K** (3.8B, ~2.3GB) - Microsoft's high-quality small model
+- **SmolLM 360M** (~200MB) - Extremely efficient, good for low-end devices
+- **StableLM 1.6B** (~1GB) - Good quality-to-size ratio
+- **Llama 3.2 1B** (~650MB) - Latest Meta technology
+
+**Why not larger models?**
+Browser-based AI is limited by:
+- RAM availability (most browsers cap at 2-4GB per tab)
+- Download size (models > 2GB are impractical)
+- Inference speed (larger models = slower responses)
+
+Large models like 120B parameters (~240GB) require server-side deployment and cannot run in browsers.
 
 ### Browser Compatibility
 

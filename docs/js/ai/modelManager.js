@@ -28,9 +28,14 @@ export class ModelManager {
             // Import Transformers.js dynamically (using v2.17.2 which is more stable)
             const { pipeline, env } = await import('https://cdn.jsdelivr.net/npm/@xenova/transformers@2.17.2');
 
-            // Configure to use HuggingFace models (not local)
+            // Force use of remote models from HuggingFace CDN ONLY
             env.allowRemoteModels = true;
             env.allowLocalModels = false;
+            env.remoteHost = 'https://huggingface.co/';
+            env.remotePathTemplate = '{model}/resolve/{revision}/';
+
+            // Ensure models are always loaded from HuggingFace
+            env.backends.onnx.wasm.numThreads = 1; // Single thread for stability
 
             // Create text-generation pipeline with progress tracking
             this.pipeline = await pipeline('text-generation', modelName, {

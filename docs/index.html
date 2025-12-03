@@ -136,12 +136,29 @@
 
             <div class="setting-item">
                 <label for="modelSelector">
-                    <span data-i18n="model">Модель</span>: <span id="modelValue">Xenova/gpt2</span>
+                    <span data-i18n="model">Модель</span>
                 </label>
                 <select id="modelSelector" class="model-select">
-                    <option value="Xenova/gpt2">GPT-2 (124M params, ~250MB)</option>
-                    <option value="Xenova/distilgpt2">DistilGPT-2 (82M params, ~150MB)</option>
+                    <optgroup label="GPT-2 Models (Classic)">
+                        <option value="Xenova/distilgpt2">DistilGPT-2 (82M, ~150MB) - Fastest</option>
+                        <option value="Xenova/gpt2" selected>GPT-2 (124M, ~250MB) - Balanced</option>
+                        <option value="Xenova/gpt2-medium">GPT-2 Medium (355M, ~700MB) - Better quality</option>
+                    </optgroup>
+                    <optgroup label="Small Instruct Models (Recommended)">
+                        <option value="Xenova/Qwen2.5-0.5B-Instruct">Qwen2.5 0.5B (~300MB) - Very fast, good quality</option>
+                        <option value="Xenova/Qwen2.5-1.5B-Instruct">Qwen2.5 1.5B (~900MB) - High quality</option>
+                        <option value="Xenova/TinyLlama-1.1B-Chat-v1.0">TinyLlama 1.1B (~650MB) - Chat optimized</option>
+                    </optgroup>
+                    <optgroup label="Advanced Models (Powerful devices only)">
+                        <option value="Xenova/Phi-3-mini-4k-instruct">Phi-3 Mini 4K (3.8B, ~2.3GB) - High quality</option>
+                        <option value="Xenova/SmolLM-360M-Instruct">SmolLM 360M (~200MB) - Very efficient</option>
+                        <option value="Xenova/stablelm-2-zephyr-1_6b">StableLM 1.6B (~1GB) - Good balance</option>
+                        <option value="Xenova/Llama-3.2-1B-Instruct">Llama 3.2 1B (~650MB) - Latest tech</option>
+                    </optgroup>
                 </select>
+                <div class="model-info" style="font-size: 11px; color: var(--secondary-color); margin-top: 5px;">
+                    Note: Larger models provide better quality but require more RAM and load time.
+                </div>
             </div>
 
             <div class="setting-item">
