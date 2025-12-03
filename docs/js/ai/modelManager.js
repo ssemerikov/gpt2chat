@@ -25,11 +25,12 @@ export class ModelManager {
         this.isLoaded = false;
 
         try {
-            // Import Transformers.js dynamically
-            const { pipeline } = await import('https://cdn.jsdelivr.net/npm/@huggingface/transformers@3.0.0');
+            // Import Transformers.js dynamically (using v2.17.2 which is more stable)
+            const { pipeline } = await import('https://cdn.jsdelivr.net/npm/@xenova/transformers@2.17.2');
 
             // Create text-generation pipeline with progress tracking
             this.pipeline = await pipeline('text-generation', modelName, {
+                quantized: false, // Use non-quantized model for better compatibility
                 progress_callback: (progress) => {
                     this.handleProgress(progress);
                 }
