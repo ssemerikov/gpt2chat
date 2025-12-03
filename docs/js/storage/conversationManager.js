@@ -38,7 +38,7 @@ export class ConversationManager {
      * @param {string} modelName - Model name to use
      * @returns {Object} New conversation object
      */
-    createConversation(modelName = 'Xenova/gpt2') {
+    createConversation(modelName = 'Xenova/Qwen2.5-1.5B-Instruct') {
         const conversation = {
             conversation_id: generateUUID(),
             created_at: new Date().toISOString(),
@@ -275,7 +275,7 @@ export class ConversationManager {
             metadata: data.metadata || {
                 total_messages: data.messages.length,
                 model_config: {
-                    model_name: 'Xenova/gpt2',
+                    model_name: 'Xenova/Qwen2.5-1.5B-Instruct',
                     temperature: 0.7,
                     max_length: 100,
                     top_k: 50,
