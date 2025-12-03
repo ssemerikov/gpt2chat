@@ -87,15 +87,15 @@ class GPT2ChatModel:
                 repetition_penalty=repetition_penalty,
                 num_return_sequences=num_return_sequences,
                 do_sample=True,
-                pad_token_id=self.tokenizer.eos_token,
+                pad_token_id=self.tokenizer.eos_token_id,
                 eos_token_id=self.tokenizer.eos_token_id
             )
 
-        # Декодування
-        generated_text = self.tokenizer.decode(outputs[0], skip_special_tokens=True)
-
-        # Видалення prompt з результату
-        response = generated_text[len(prompt):].strip()
+        # Декодування тільки нових токенів (без prompt)
+        # outputs[0] містить всі токени (prompt + згенеровані)
+        # inputs.shape[1] - кількість токенів у prompt
+        new_tokens = outputs[0][inputs.shape[1]:]
+        response = self.tokenizer.decode(new_tokens, skip_special_tokens=True).strip()
 
         return response
 

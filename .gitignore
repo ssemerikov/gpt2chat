@@ -49,6 +49,14 @@ models/cache/
 *.log
 logs/
 
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+coverage.xml
+*.cover
+.hypothesis/
+
 # OS
 .DS_Store
 Thumbs.db

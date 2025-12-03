@@ -44,7 +44,8 @@ class ChatService:
         token_count = self.model.count_tokens(full_text)
 
         # Якщо перевищено ліміт - обрізаємо старі повідомлення
-        while token_count > max_tokens and len(formatted_lines) > 2:
+        # Зберігаємо хоча б одне повідомлення (останнє)
+        while token_count > max_tokens and len(formatted_lines) > 1:
             formatted_lines.pop(0)  # Видаляємо найстаріше
             full_text = "\n".join(formatted_lines)
             token_count = self.model.count_tokens(full_text)
