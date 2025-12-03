@@ -557,7 +557,7 @@ class GPT2ChatApp {
             language: 'uk',
             currentConversationId: null,
             modelConfig: {
-                model_name: 'onnx-community/Qwen2.5-1.5B',
+                model_name: 'Xenova/distilgpt2',
                 temperature: 0.7,
                 max_length: 100,
                 top_k: 50,

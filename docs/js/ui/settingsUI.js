@@ -6,7 +6,7 @@
 export class SettingsUI {
     constructor(defaultConfig = {}, onSettingsChange = null) {
         this.config = {
-            model_name: defaultConfig.model_name || 'onnx-community/Qwen2.5-1.5B',
+            model_name: defaultConfig.model_name || 'Xenova/distilgpt2',
             temperature: defaultConfig.temperature || 0.7,
             max_length: defaultConfig.max_length || 100,
             top_k: defaultConfig.top_k || 50,
@@ -169,7 +169,7 @@ export class SettingsUI {
      */
     resetToDefaults() {
         this.config = {
-            model_name: 'onnx-community/Qwen2.5-1.5B',
+            model_name: 'Xenova/distilgpt2',
             temperature: 0.7,
             max_length: 100,
             top_k: 50,
