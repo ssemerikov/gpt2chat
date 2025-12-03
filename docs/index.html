@@ -140,25 +140,29 @@
                 </label>
                 <select id="modelSelector" class="model-select">
                     <optgroup label="🏆 Best for Chat (Recommended)">
-                        <option value="Xenova/Qwen2.5-1.5B-Instruct" selected>⭐ Qwen2.5 1.5B (~900MB) - Best quality</option>
-                        <option value="Xenova/Phi-3-mini-4k-instruct">Phi-3 Mini 4K (3.8B, ~2.3GB) - Highest quality</option>
-                        <option value="Xenova/TinyLlama-1.1B-Chat-v1.0">TinyLlama 1.1B (~650MB) - Chat optimized</option>
-                        <option value="Xenova/Llama-3.2-1B-Instruct">Llama 3.2 1B (~650MB) - Latest tech</option>
+                        <option value="onnx-community/Qwen2.5-1.5B" selected>⭐ Qwen2.5 1.5B (~900MB) - Best quality</option>
+                        <option value="onnx-community/Phi-3.5-mini-instruct-onnx-web">Phi-3.5 Mini (3.8B, ~2.3GB) - Highest quality (WebGPU)</option>
+                        <option value="onnx-community/Llama-3.2-1B-Instruct-ONNX">Llama 3.2 1B (~650MB) - Latest Meta tech</option>
+                        <option value="onnx-community/TinyLlama-1.1B-Chat-v1.0-ONNX">TinyLlama 1.1B (~650MB) - Chat optimized</option>
                     </optgroup>
                     <optgroup label="⚡ Fast & Efficient">
-                        <option value="Xenova/Qwen2.5-0.5B-Instruct">Qwen2.5 0.5B (~300MB) - Very fast</option>
-                        <option value="Xenova/SmolLM-360M-Instruct">SmolLM 360M (~200MB) - Ultra efficient</option>
-                        <option value="Xenova/distilgpt2">DistilGPT-2 (82M, ~150MB) - Fastest</option>
-                    </optgroup>
-                    <optgroup label="📚 GPT-2 Family (Classic)">
-                        <option value="Xenova/gpt2">GPT-2 (124M, ~250MB)</option>
-                        <option value="Xenova/gpt2-medium">GPT-2 Medium (355M, ~700MB)</option>
+                        <option value="onnx-community/Qwen2.5-0.5B-Instruct">Qwen2.5 0.5B (~300MB) - Very fast</option>
+                        <option value="onnx-community/gemma-3-270m-it-ONNX">Gemma 3 270M (~150MB) - Google's latest</option>
+                        <option value="onnx-community/MobileLLM-125M">MobileLLM 125M (~70MB) - Ultra lightweight</option>
+                        <option value="Xenova/distilgpt2">DistilGPT-2 82M (~150MB) - Fastest classic</option>
                     </optgroup>
                     <optgroup label="🔬 Advanced Models">
-                        <option value="Xenova/stablelm-2-zephyr-1_6b">StableLM 1.6B (~1GB)</option>
+                        <option value="onnx-community/Llama-3.2-3B-Instruct-ONNX">Llama 3.2 3B (~1.8GB) - High quality</option>
+                        <option value="onnx-community/gemma-3-1b-it-ONNX">Gemma 3 1B (~600MB) - Google multimodal</option>
+                        <option value="onnx-community/MobileLLM-1B">MobileLLM 1B (~600MB) - Efficient 1B model</option>
+                        <option value="Xenova/stablelm-2-zephyr-1_6b">StableLM 1.6B (~1GB) - Stability AI</option>
                     </optgroup>
-                    <optgroup label="⚠️ Experimental (May not work)">
-                        <option value="nvidia/gpt-oss-120b-Eagle3">NVIDIA Eagle3 MoE (5B active) - Requires special runtime</option>
+                    <optgroup label="📚 GPT-2 Family (Classic)">
+                        <option value="Xenova/gpt2">GPT-2 124M (~250MB)</option>
+                        <option value="Xenova/gpt2-medium">GPT-2 Medium 355M (~700MB)</option>
+                    </optgroup>
+                    <optgroup label="💻 Coding Specialists">
+                        <option value="onnx-community/Qwen2.5-Coder-0.5B-Instruct">Qwen2.5 Coder 0.5B (~300MB) - Code generation</option>
                     </optgroup>
                 </select>
                 <div class="model-info" style="font-size: 11px; color: var(--secondary-color); margin-top: 5px;">
