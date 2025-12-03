@@ -139,15 +139,38 @@
                     <span data-i18n="model">Модель</span>
                 </label>
                 <select id="modelSelector" class="model-select">
-                    <option value="Xenova/distilgpt2" selected>
-                        ⭐ DistilGPT-2 (82M, ~150MB) - Fast & Reliable
-                    </option>
-                    <option value="Xenova/gpt2">
-                        GPT-2 (124M, ~250MB) - Better Quality
-                    </option>
-                    <option value="Xenova/stablelm-2-zephyr-1_6b">
-                        StableLM Zephyr (1.6B, ~1GB) - Best Quality
-                    </option>
+                    <optgroup label="⚡ Ultra Fast (Recommended for Low-End Devices)">
+                        <option value="Xenova/llama2.c-stories15M">
+                            Llama2 Stories (15M, ~30MB) - Ultra Light & Fast
+                        </option>
+                        <option value="Xenova/distilgpt2" selected>
+                            ⭐ DistilGPT-2 (82M, ~150MB) - Fast & Reliable (DEFAULT)
+                        </option>
+                    </optgroup>
+                    <optgroup label="💬 Chat Optimized (Best for Conversations)">
+                        <option value="Xenova/Qwen1.5-0.5B-Chat">
+                            Qwen 1.5 Chat (500M, ~300MB) - Chat Specialist
+                        </option>
+                        <option value="Xenova/TinyLlama-1.1B-Chat-v1.0">
+                            TinyLlama Chat (1.1B, ~650MB) - Instruction-Tuned
+                        </option>
+                        <option value="Xenova/Qwen1.5-1.8B-Chat">
+                            Qwen 1.8B Chat (1.8B, ~1.2GB) - High Quality Chat
+                        </option>
+                    </optgroup>
+                    <optgroup label="🎯 General Purpose">
+                        <option value="Xenova/gpt2">
+                            GPT-2 (124M, ~250MB) - Classic OpenAI
+                        </option>
+                        <option value="Xenova/stablelm-2-zephyr-1_6b">
+                            StableLM Zephyr (1.6B, ~1GB) - Best Quality
+                        </option>
+                    </optgroup>
+                    <optgroup label="💻 Code Generation">
+                        <option value="Xenova/codegen-350M-mono">
+                            CodeGen Python (350M, ~350MB) - Python Specialist
+                        </option>
+                    </optgroup>
                 </select>
                 <div class="model-info" style="font-size: 11px; color: var(--secondary-color); margin-top: 5px;">
                     All models are verified to work in your browser. Choose based on your device performance.

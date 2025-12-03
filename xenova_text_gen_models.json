@@ -1,0 +1,1248 @@
+[
+  {
+    "id": "Xenova/distilgpt2",
+    "downloads": 8319,
+    "likes": 9,
+    "onnx_files": 32,
+    "has_decoder_merged": true,
+    "tags": [
+      "transformers.js",
+      "onnx",
+      "gpt2",
+      "text-generation",
+      "base_model:distilbert/distilgpt2",
+      "base_model:quantized:distilbert/distilgpt2",
+      "region:us"
+    ]
+  },
+  {
+    "id": "Xenova/tiny-random-Phi3ForCausalLM",
+    "downloads": 7178,
+    "likes": 0,
+    "onnx_files": 8,
+    "has_decoder_merged": false,
+    "tags": [
+      "transformers",
+      "onnx",
+      "safetensors",
+      "phi3",
+      "text-generation",
+      "conversational",
+      "arxiv:1910.09700",
+      "text-generation-inference",
+      "endpoints_compatible",
+      "deploy:azure",
+      "region:us"
+    ]
+  },
+  {
+    "id": "Xenova/gpt2",
+    "downloads": 3702,
+    "likes": 9,
+    "onnx_files": 13,
+    "has_decoder_merged": true,
+    "tags": [
+      "transformers.js",
+      "onnx",
+      "gpt2",
+      "text-generation",
+      "base_model:openai-community/gpt2",
+      "base_model:quantized:openai-community/gpt2",
+      "region:us"
+    ]
+  },
+  {
+    "id": "Xenova/Phi-3-mini-4k-instruct",
+    "downloads": 1783,
+    "likes": 21,
+    "onnx_files": 2,
+    "has_decoder_merged": false,
+    "tags": [
+      "transformers.js",
+      "onnx",
+      "phi3",
+      "text-generation",
+      "ONNX",
+      "DML",
+      "ONNXRuntime",
+      "nlp",
+      "conversational",
+      "license:mit",
+      "region:us"
+    ]
+  },
+  {
+    "id": "Xenova/llama2.c-stories15M",
+    "downloads": 1484,
+    "likes": 7,
+    "onnx_files": 32,
+    "has_decoder_merged": true,
+    "tags": [
+      "transformers.js",
+      "pytorch",
+      "onnx",
+      "safetensors",
+      "llama",
+      "text-generation",
+      "transformers",
+      "text-generation-inference",
+      "endpoints_compatible",
+      "region:us"
+    ]
+  },
+  {
+    "id": "Xenova/Qwen1.5-0.5B-Chat",
+    "downloads": 1280,
+    "likes": 8,
+    "onnx_files": 9,
+    "has_decoder_merged": true,
+    "tags": [
+      "transformers.js",
+      "onnx",
+      "qwen2",
+      "text-generation",
+      "conversational",
+      "base_model:Qwen/Qwen1.5-0.5B-Chat",
+      "base_model:quantized:Qwen/Qwen1.5-0.5B-Chat",
+      "region:us"
+    ]
+  },
+  {
+    "id": "Xenova/TinyLlama-1.1B-Chat-v1.0",
+    "downloads": 667,
+    "likes": 8,
+    "onnx_files": 13,
+    "has_decoder_merged": true,
+    "tags": [
+      "transformers.js",
+      "onnx",
+      "llama",
+      "text-generation",
+      "conversational",
+      "base_model:TinyLlama/TinyLlama-1.1B-Chat-v1.0",
+      "base_model:quantized:TinyLlama/TinyLlama-1.1B-Chat-v1.0",
+      "region:us"
+    ]
+  },
+  {
+    "id": "Xenova/Phi-3-mini-4k-instruct_fp16",
+    "downloads": 272,
+    "likes": 5,
+    "onnx_files": 2,
+    "has_decoder_merged": false,
+    "tags": [
+      "transformers.js",
+      "onnx",
+      "phi3",
+      "text-generation",
+      "ONNX",
+      "DML",
+      "ONNXRuntime",
+      "nlp",
+      "conversational",
+      "license:mit",
+      "region:us"
+    ]
+  },
+  {
+    "id": "Xenova/tiny-random-GemmaForCausalLM",
+    "downloads": 197,
+    "likes": 3,
+    "onnx_files": 7,
+    "has_decoder_merged": false,
+    "tags": [
+      "transformers",
+      "onnx",
+      "safetensors",
+      "gemma",
+      "text-generation",
+      "conversational",
+      "arxiv:1910.09700",
+      "license:apache-2.0",
+      "text-generation-inference",
+      "endpoints_compatible",
+      "region:us"
+    ]
+  },
+  {
+    "id": "Xenova/codegen-350M-mono",
+    "downloads": 172,
+    "likes": 6,
+    "onnx_files": 32,
+    "has_decoder_merged": true,
+    "tags": [
+      "transformers.js",
+      "onnx",
+      "codegen",
+      "text-generation",
+      "base_model:Salesforce/codegen-350M-mono",
+      "base_model:quantized:Salesforce/codegen-350M-mono",
+      "region:us"
+    ]
+  },
+  {
+    "id": "Xenova/llama2.c-stories110M",
+    "downloads": 85,
+    "likes": 5,
+    "onnx_files": 32,
+    "has_decoder_merged": true,
+    "tags": [
+      "transformers.js",
+      "pytorch",
+      "onnx",
+      "safetensors",
+      "llama",
+      "text-generation",
+      "transformers",
+      "text-generation-inference",
+      "endpoints_compatible",
+      "deploy:azure",
+      "region:us"
+    ]
+  },
+  {
+    "id": "Xenova/Qwen1.5-1.8B-Chat",
+    "downloads": 82,
+    "likes": 0,
+    "onnx_files": 3,
+    "has_decoder_merged": true,
+    "tags": [
+      "transformers.js",
+      "onnx",
+      "qwen2",
+      "text-generation",
+      "conversational",
+      "base_model:Qwen/Qwen1.5-1.8B-Chat",
+      "base_model:quantized:Qwen/Qwen1.5-1.8B-Chat",
+      "region:us"
+    ]
+  },
+  {
+    "id": "Xenova/tiny_starcoder_py",
+    "downloads": 69,
+    "likes": 2,
+    "onnx_files": 32,
+    "has_decoder_merged": true,
+    "tags": [
+      "transformers.js",
+      "onnx",
+      "gpt_bigcode",
+      "text-generation",
+      "base_model:bigcode/tiny_starcoder_py",
+      "base_model:quantized:bigcode/tiny_starcoder_py",
+      "region:us"
+    ]
+  },
+  {
+    "id": "Xenova/gpt-neo-125M",
+    "downloads": 57,
+    "likes": 0,
+    "onnx_files": 14,
+    "has_decoder_merged": true,
+    "tags": [
+      "transformers.js",
+      "onnx",
+      "gpt_neo",
+      "text-generation",
+      "base_model:EleutherAI/gpt-neo-125m",
+      "base_model:quantized:EleutherAI/gpt-neo-125m",
+      "region:us"
+    ]
+  },
+  {
+    "id": "Xenova/LaMini-GPT-124M",
+    "downloads": 54,
+    "likes": 3,
+    "onnx_files": 14,
+    "has_decoder_merged": true,
+    "tags": [
+      "transformers.js",
+      "onnx",
+      "gpt2",
+      "text-generation",
+      "base_model:MBZUAI/LaMini-GPT-124M",
+      "base_model:quantized:MBZUAI/LaMini-GPT-124M",
+      "region:us"
+    ]
+  },
+  {
+    "id": "Xenova/phi-1_5_dev",
+    "downloads": 43,
+    "likes": 0,
+    "onnx_files": 3,
+    "has_decoder_merged": true,
+    "tags": [
+      "transformers.js",
+      "onnx",
+      "phi",
+      "text-generation",
+      "base_model:susnato/phi-1_5_dev",
+      "base_model:quantized:susnato/phi-1_5_dev",
+      "region:us"
+    ]
+  },
+  {
+    "id": "Xenova/LaMini-GPT-774M",
+    "downloads": 42,
+    "likes": 0,
+    "onnx_files": 9,
+    "has_decoder_merged": true,
+    "tags": [
+      "transformers.js",
+      "onnx",
+      "gpt2",
+      "text-generation",
+      "base_model:MBZUAI/LaMini-GPT-774M",
+      "base_model:quantized:MBZUAI/LaMini-GPT-774M",
+      "region:us"
+    ]
+  },
+  {
+    "id": "Xenova/llama-160m",
+    "downloads": 35,
+    "likes": 2,
+    "onnx_files": 14,
+    "has_decoder_merged": true,
+    "tags": [
+      "transformers.js",
+      "onnx",
+      "llama",
+      "text-generation",
+      "base_model:JackFram/llama-160m",
+      "base_model:quantized:JackFram/llama-160m",
+      "region:us"
+    ]
+  },
+  {
+    "id": "Xenova/pygmalion-350m",
+    "downloads": 33,
+    "likes": 0,
+    "onnx_files": 13,
+    "has_decoder_merged": true,
+    "tags": [
+      "transformers.js",
+      "onnx",
+      "opt",
+      "text-generation",
+      "base_model:PygmalionAI/pygmalion-350m",
+      "base_model:quantized:PygmalionAI/pygmalion-350m",
+      "region:us"
+    ]
+  },
+  {
+    "id": "Xenova/llama-68m",
+    "downloads": 32,
+    "likes": 0,
+    "onnx_files": 14,
+    "has_decoder_merged": true,
+    "tags": [
+      "transformers.js",
+      "onnx",
+      "llama",
+      "text-generation",
+      "base_model:JackFram/llama-68m",
+      "base_model:quantized:JackFram/llama-68m",
+      "region:us"
+    ]
+  },
+  {
+    "id": "Xenova/LaMini-Cerebras-256M",
+    "downloads": 31,
+    "likes": 0,
+    "onnx_files": 14,
+    "has_decoder_merged": true,
+    "tags": [
+      "transformers.js",
+      "onnx",
+      "gpt2",
+      "text-generation",
+      "base_model:MBZUAI/LaMini-Cerebras-256M",
+      "base_model:quantized:MBZUAI/LaMini-Cerebras-256M",
+      "region:us"
+    ]
+  },
+  {
+    "id": "Xenova/deepseek-coder-1.3b-instruct",
+    "downloads": 29,
+    "likes": 0,
+    "onnx_files": 3,
+    "has_decoder_merged": true,
+    "tags": [
+      "transformers.js",
+      "onnx",
+      "llama",
+      "text-generation",
+      "conversational",
+      "base_model:deepseek-ai/deepseek-coder-1.3b-instruct",
+      "base_model:quantized:deepseek-ai/deepseek-coder-1.3b-instruct",
+      "region:us"
+    ]
+  },
+  {
+    "id": "Xenova/Phi-3-mini-4k-instruct-hf",
+    "downloads": 29,
+    "likes": 0,
+    "onnx_files": 8,
+    "has_decoder_merged": false,
+    "tags": [
+      "transformers",
+      "onnx",
+      "phi3",
+      "text-generation",
+      "conversational",
+      "custom_code",
+      "endpoints_compatible",
+      "region:us"
+    ]
+  },
+  {
+    "id": "Xenova/pythia-14m",
+    "downloads": 28,
+    "likes": 0,
+    "onnx_files": 32,
+    "has_decoder_merged": true,
+    "tags": [
+      "transformers.js",
+      "onnx",
+      "gpt_neox",
+      "text-generation",
+      "base_model:EleutherAI/pythia-14m",
+      "base_model:quantized:EleutherAI/pythia-14m",
+      "region:us"
+    ]
+  },
+  {
+    "id": "Xenova/opt-350m",
+    "downloads": 27,
+    "likes": 0,
+    "onnx_files": 13,
+    "has_decoder_merged": true,
+    "tags": [
+      "transformers.js",
+      "onnx",
+      "opt",
+      "text-generation",
+      "base_model:facebook/opt-350m",
+      "base_model:quantized:facebook/opt-350m",
+      "region:us"
+    ]
+  },
+  {
+    "id": "Xenova/ipt-350m",
+    "downloads": 26,
+    "likes": 0,
+    "onnx_files": 14,
+    "has_decoder_merged": true,
+    "tags": [
+      "transformers.js",
+      "onnx",
+      "mpt",
+      "text-generation",
+      "custom_code",
+      "base_model:efederici/ipt-350m",
+      "base_model:quantized:efederici/ipt-350m",
+      "region:us"
+    ]
+  },
+  {
+    "id": "Xenova/opt-125m",
+    "downloads": 26,
+    "likes": 0,
+    "onnx_files": 13,
+    "has_decoder_merged": true,
+    "tags": [
+      "transformers.js",
+      "onnx",
+      "opt",
+      "text-generation",
+      "base_model:facebook/opt-125m",
+      "base_model:quantized:facebook/opt-125m",
+      "region:us"
+    ]
+  },
+  {
+    "id": "Xenova/bloomz-560m",
+    "downloads": 25,
+    "likes": 1,
+    "onnx_files": 9,
+    "has_decoder_merged": true,
+    "tags": [
+      "transformers.js",
+      "onnx",
+      "bloom",
+      "text-generation",
+      "base_model:bigscience/bloomz-560m",
+      "base_model:quantized:bigscience/bloomz-560m",
+      "region:us"
+    ]
+  },
+  {
+    "id": "Xenova/LaMini-Neo-125M",
+    "downloads": 24,
+    "likes": 0,
+    "onnx_files": 14,
+    "has_decoder_merged": true,
+    "tags": [
+      "transformers.js",
+      "onnx",
+      "gpt_neo",
+      "text-generation",
+      "base_model:MBZUAI/LaMini-Neo-125M",
+      "base_model:quantized:MBZUAI/LaMini-Neo-125M",
+      "region:us"
+    ]
+  },
+  {
+    "id": "Xenova/WizardCoder-1B-V1.0",
+    "downloads": 24,
+    "likes": 4,
+    "onnx_files": 37,
+    "has_decoder_merged": true,
+    "tags": [
+      "transformers.js",
+      "onnx",
+      "gpt_bigcode",
+      "text-generation",
+      "base_model:WizardLM/WizardCoder-1B-V1.0",
+      "base_model:quantized:WizardLM/WizardCoder-1B-V1.0",
+      "region:us"
+    ]
+  },
+  {
+    "id": "Xenova/tamillama_tiny_30m",
+    "downloads": 24,
+    "likes": 0,
+    "onnx_files": 14,
+    "has_decoder_merged": true,
+    "tags": [
+      "transformers.js",
+      "onnx",
+      "llama",
+      "text-generation",
+      "base_model:RajuKandasamy/tamillama_tiny_30m",
+      "base_model:quantized:RajuKandasamy/tamillama_tiny_30m",
+      "region:us"
+    ]
+  },
+  {
+    "id": "Xenova/tiny-random-mistral",
+    "downloads": 24,
+    "likes": 0,
+    "onnx_files": 9,
+    "has_decoder_merged": true,
+    "tags": [
+      "transformers.js",
+      "onnx",
+      "mistral",
+      "text-generation",
+      "base_model:echarlaix/tiny-random-mistral",
+      "base_model:quantized:echarlaix/tiny-random-mistral",
+      "region:us"
+    ]
+  },
+  {
+    "id": "Xenova/tiny-random-PhiForCausalLM",
+    "downloads": 24,
+    "likes": 1,
+    "onnx_files": 4,
+    "has_decoder_merged": true,
+    "tags": [
+      "transformers.js",
+      "onnx",
+      "phi",
+      "text-generation",
+      "base_model:hf-internal-testing/tiny-random-PhiForCausalLM",
+      "base_model:quantized:hf-internal-testing/tiny-random-PhiForCausalLM",
+      "region:us"
+    ]
+  },
+  {
+    "id": "Xenova/TinyLLama-v0",
+    "downloads": 23,
+    "likes": 2,
+    "onnx_files": 14,
+    "has_decoder_merged": true,
+    "tags": [
+      "transformers.js",
+      "onnx",
+      "llama",
+      "text-generation",
+      "base_model:Maykeye/TinyLLama-v0",
+      "base_model:quantized:Maykeye/TinyLLama-v0",
+      "region:us"
+    ]
+  },
+  {
+    "id": "Xenova/pythia-410m",
+    "downloads": 23,
+    "likes": 0,
+    "onnx_files": 32,
+    "has_decoder_merged": true,
+    "tags": [
+      "transformers.js",
+      "onnx",
+      "gpt_neox",
+      "text-generation",
+      "base_model:EleutherAI/pythia-410m",
+      "base_model:quantized:EleutherAI/pythia-410m",
+      "region:us"
+    ]
+  },
+  {
+    "id": "Xenova/Qwen1.5-0.5B",
+    "downloads": 23,
+    "likes": 1,
+    "onnx_files": 2,
+    "has_decoder_merged": true,
+    "tags": [
+      "transformers.js",
+      "onnx",
+      "qwen2",
+      "text-generation",
+      "conversational",
+      "base_model:Qwen/Qwen1.5-0.5B",
+      "base_model:quantized:Qwen/Qwen1.5-0.5B",
+      "region:us"
+    ]
+  },
+  {
+    "id": "Xenova/LiteLlama-460M-1T",
+    "downloads": 21,
+    "likes": 2,
+    "onnx_files": 9,
+    "has_decoder_merged": true,
+    "tags": [
+      "transformers.js",
+      "onnx",
+      "llama",
+      "text-generation",
+      "base_model:ahxt/LiteLlama-460M-1T",
+      "base_model:quantized:ahxt/LiteLlama-460M-1T",
+      "region:us"
+    ]
+  },
+  {
+    "id": "Xenova/Qwen1.5-1.8B",
+    "downloads": 21,
+    "likes": 1,
+    "onnx_files": 3,
+    "has_decoder_merged": true,
+    "tags": [
+      "transformers.js",
+      "onnx",
+      "qwen2",
+      "text-generation",
+      "conversational",
+      "base_model:Qwen/Qwen1.5-1.8B",
+      "base_model:quantized:Qwen/Qwen1.5-1.8B",
+      "region:us"
+    ]
+  },
+  {
+    "id": "Xenova/bloom-560m",
+    "downloads": 20,
+    "likes": 0,
+    "onnx_files": 9,
+    "has_decoder_merged": true,
+    "tags": [
+      "transformers.js",
+      "onnx",
+      "bloom",
+      "text-generation",
+      "base_model:bigscience/bloom-560m",
+      "base_model:quantized:bigscience/bloom-560m",
+      "region:us"
+    ]
+  },
+  {
+    "id": "Xenova/starcoderbase-1b",
+    "downloads": 20,
+    "likes": 0,
+    "onnx_files": 9,
+    "has_decoder_merged": true,
+    "tags": [
+      "transformers.js",
+      "onnx",
+      "gpt_bigcode",
+      "text-generation",
+      "base_model:bigcode/starcoderbase-1b",
+      "base_model:quantized:bigcode/starcoderbase-1b",
+      "region:us"
+    ]
+  },
+  {
+    "id": "Xenova/llama2.c-stories42M",
+    "downloads": 20,
+    "likes": 1,
+    "onnx_files": 32,
+    "has_decoder_merged": true,
+    "tags": [
+      "transformers.js",
+      "pytorch",
+      "onnx",
+      "llama",
+      "text-generation",
+      "transformers",
+      "text-generation-inference",
+      "endpoints_compatible",
+      "region:us"
+    ]
+  },
+  {
+    "id": "Xenova/pythia-70m",
+    "downloads": 20,
+    "likes": 0,
+    "onnx_files": 32,
+    "has_decoder_merged": true,
+    "tags": [
+      "transformers.js",
+      "onnx",
+      "gpt_neox",
+      "text-generation",
+      "base_model:EleutherAI/pythia-70m",
+      "base_model:quantized:EleutherAI/pythia-70m",
+      "region:us"
+    ]
+  },
+  {
+    "id": "Xenova/LaMini-Cerebras-590M",
+    "downloads": 19,
+    "likes": 2,
+    "onnx_files": 9,
+    "has_decoder_merged": true,
+    "tags": [
+      "transformers.js",
+      "onnx",
+      "gpt2",
+      "text-generation",
+      "base_model:MBZUAI/LaMini-Cerebras-590M",
+      "base_model:quantized:MBZUAI/LaMini-Cerebras-590M",
+      "region:us"
+    ]
+  },
+  {
+    "id": "Xenova/codegen-350M-multi",
+    "downloads": 19,
+    "likes": 2,
+    "onnx_files": 7,
+    "has_decoder_merged": true,
+    "tags": [
+      "transformers.js",
+      "onnx",
+      "codegen",
+      "text-generation",
+      "base_model:Salesforce/codegen-350M-multi",
+      "base_model:quantized:Salesforce/codegen-350M-multi",
+      "region:us"
+    ]
+  },
+  {
+    "id": "Xenova/pythia-70m-deduped",
+    "downloads": 19,
+    "likes": 0,
+    "onnx_files": 32,
+    "has_decoder_merged": true,
+    "tags": [
+      "transformers.js",
+      "onnx",
+      "gpt_neox",
+      "text-generation",
+      "base_model:EleutherAI/pythia-70m-deduped",
+      "base_model:quantized:EleutherAI/pythia-70m-deduped",
+      "region:us"
+    ]
+  },
+  {
+    "id": "Xenova/gpt2-large-conversational",
+    "downloads": 19,
+    "likes": 3,
+    "onnx_files": 9,
+    "has_decoder_merged": true,
+    "tags": [
+      "transformers.js",
+      "onnx",
+      "gpt2",
+      "text-generation",
+      "base_model:Locutusque/gpt2-large-conversational",
+      "base_model:quantized:Locutusque/gpt2-large-conversational",
+      "region:us"
+    ]
+  },
+  {
+    "id": "Xenova/OpenELM-270M-Instruct",
+    "downloads": 18,
+    "likes": 1,
+    "onnx_files": 8,
+    "has_decoder_merged": false,
+    "tags": [
+      "transformers.js",
+      "onnx",
+      "openelm",
+      "text-generation",
+      "conversational",
+      "custom_code",
+      "base_model:apple/OpenELM-270M-Instruct",
+      "base_model:quantized:apple/OpenELM-270M-Instruct",
+      "region:us"
+    ]
+  },
+  {
+    "id": "Xenova/OpenELM-450M-Instruct",
+    "downloads": 18,
+    "likes": 0,
+    "onnx_files": 8,
+    "has_decoder_merged": false,
+    "tags": [
+      "transformers.js",
+      "onnx",
+      "openelm",
+      "text-generation",
+      "conversational",
+      "custom_code",
+      "base_model:apple/OpenELM-450M-Instruct",
+      "base_model:quantized:apple/OpenELM-450M-Instruct",
+      "license:other",
+      "region:us"
+    ]
+  },
+  {
+    "id": "Xenova/slovak-gpt-j-405M",
+    "downloads": 17,
+    "likes": 0,
+    "onnx_files": 6,
+    "has_decoder_merged": true,
+    "tags": [
+      "transformers.js",
+      "onnx",
+      "gptj",
+      "text-generation",
+      "base_model:Milos/slovak-gpt-j-405M",
+      "base_model:quantized:Milos/slovak-gpt-j-405M",
+      "region:us"
+    ]
+  },
+  {
+    "id": "Xenova/distilgpt2_onnx-quantized",
+    "downloads": 16,
+    "likes": 0,
+    "onnx_files": 2,
+    "has_decoder_merged": false,
+    "tags": [
+      "transformers",
+      "onnx",
+      "gpt2",
+      "text-generation",
+      "endpoints_compatible",
+      "region:us"
+    ]
+  },
+  {
+    "id": "Xenova/pythia-410m-deduped",
+    "downloads": 16,
+    "likes": 0,
+    "onnx_files": 32,
+    "has_decoder_merged": true,
+    "tags": [
+      "transformers.js",
+      "onnx",
+      "gpt_neox",
+      "text-generation",
+      "base_model:EleutherAI/pythia-410m-deduped",
+      "base_model:quantized:EleutherAI/pythia-410m-deduped",
+      "region:us"
+    ]
+  },
+  {
+    "id": "Xenova/gpt-neo-romanian-125m",
+    "downloads": 15,
+    "likes": 0,
+    "onnx_files": 13,
+    "has_decoder_merged": true,
+    "tags": [
+      "transformers.js",
+      "onnx",
+      "gpt_neo",
+      "text-generation",
+      "base_model:iliemihai/gpt-neo-romanian-125m",
+      "base_model:quantized:iliemihai/gpt-neo-romanian-125m",
+      "region:us"
+    ]
+  },
+  {
+    "id": "Xenova/LaMini-Cerebras-111M",
+    "downloads": 15,
+    "likes": 0,
+    "onnx_files": 13,
+    "has_decoder_merged": true,
+    "tags": [
+      "transformers.js",
+      "onnx",
+      "gpt2",
+      "text-generation",
+      "base_model:MBZUAI/LaMini-Cerebras-111M",
+      "base_model:quantized:MBZUAI/LaMini-Cerebras-111M",
+      "region:us"
+    ]
+  },
+  {
+    "id": "Xenova/kogpt-j-350m",
+    "downloads": 14,
+    "likes": 0,
+    "onnx_files": 6,
+    "has_decoder_merged": true,
+    "tags": [
+      "transformers.js",
+      "onnx",
+      "gptj",
+      "text-generation",
+      "base_model:heegyu/kogpt-j-350m",
+      "base_model:quantized:heegyu/kogpt-j-350m",
+      "region:us"
+    ]
+  },
+  {
+    "id": "Xenova/pythia-31m",
+    "downloads": 14,
+    "likes": 0,
+    "onnx_files": 32,
+    "has_decoder_merged": true,
+    "tags": [
+      "transformers.js",
+      "onnx",
+      "gpt_neox",
+      "text-generation",
+      "base_model:EleutherAI/pythia-31m",
+      "base_model:quantized:EleutherAI/pythia-31m",
+      "region:us"
+    ]
+  },
+  {
+    "id": "Xenova/pythia-160m-deduped",
+    "downloads": 13,
+    "likes": 0,
+    "onnx_files": 14,
+    "has_decoder_merged": true,
+    "tags": [
+      "transformers.js",
+      "onnx",
+      "gpt_neox",
+      "text-generation",
+      "base_model:EleutherAI/pythia-160m-deduped",
+      "base_model:quantized:EleutherAI/pythia-160m-deduped",
+      "region:us"
+    ]
+  },
+  {
+    "id": "Xenova/starcoderbase-1b-sft",
+    "downloads": 13,
+    "likes": 0,
+    "onnx_files": 9,
+    "has_decoder_merged": true,
+    "tags": [
+      "transformers.js",
+      "onnx",
+      "gpt_bigcode",
+      "text-generation",
+      "base_model:abacaj/starcoderbase-1b-sft",
+      "base_model:quantized:abacaj/starcoderbase-1b-sft",
+      "region:us"
+    ]
+  },
+  {
+    "id": "Xenova/tiny-random-falcon-7b",
+    "downloads": 13,
+    "likes": 0,
+    "onnx_files": 2,
+    "has_decoder_merged": true,
+    "tags": [
+      "transformers.js",
+      "onnx",
+      "falcon",
+      "text-generation",
+      "base_model:Rocketknight1/tiny-random-falcon-7b",
+      "base_model:quantized:Rocketknight1/tiny-random-falcon-7b",
+      "region:us"
+    ]
+  },
+  {
+    "id": "Xenova/codegen-350M-nl",
+    "downloads": 12,
+    "likes": 0,
+    "onnx_files": 7,
+    "has_decoder_merged": true,
+    "tags": [
+      "transformers.js",
+      "onnx",
+      "codegen",
+      "text-generation",
+      "base_model:Salesforce/codegen-350M-nl",
+      "base_model:quantized:Salesforce/codegen-350M-nl",
+      "region:us"
+    ]
+  },
+  {
+    "id": "Xenova/J-350M",
+    "downloads": 12,
+    "likes": 0,
+    "onnx_files": 6,
+    "has_decoder_merged": true,
+    "tags": [
+      "transformers.js",
+      "onnx",
+      "gptj",
+      "text-generation",
+      "region:us"
+    ]
+  },
+  {
+    "id": "Xenova/really-tiny-falcon-testing",
+    "downloads": 12,
+    "likes": 1,
+    "onnx_files": 2,
+    "has_decoder_merged": true,
+    "tags": [
+      "transformers.js",
+      "pytorch",
+      "onnx",
+      "falcon",
+      "text-generation",
+      "transformers",
+      "custom_code",
+      "base_model:fxmarty/really-tiny-falcon-testing",
+      "base_model:quantized:fxmarty/really-tiny-falcon-testing",
+      "text-generation-inference",
+      "endpoints_compatible",
+      "region:us"
+    ]
+  },
+  {
+    "id": "Xenova/falcon-rw-1b",
+    "downloads": 12,
+    "likes": 0,
+    "onnx_files": 3,
+    "has_decoder_merged": true,
+    "tags": [
+      "transformers.js",
+      "onnx",
+      "falcon",
+      "text-generation",
+      "custom_code",
+      "base_model:tiiuae/falcon-rw-1b",
+      "base_model:quantized:tiiuae/falcon-rw-1b",
+      "region:us"
+    ]
+  },
+  {
+    "id": "Xenova/stablelm-2-1_6b",
+    "downloads": 12,
+    "likes": 2,
+    "onnx_files": 3,
+    "has_decoder_merged": true,
+    "tags": [
+      "transformers.js",
+      "onnx",
+      "stablelm",
+      "text-generation",
+      "base_model:stabilityai/stablelm-2-1_6b",
+      "base_model:quantized:stabilityai/stablelm-2-1_6b",
+      "region:us"
+    ]
+  },
+  {
+    "id": "Xenova/tiny-random-Starcoder2ForCausalLM",
+    "downloads": 12,
+    "likes": 0,
+    "onnx_files": 9,
+    "has_decoder_merged": true,
+    "tags": [
+      "transformers.js",
+      "onnx",
+      "starcoder2",
+      "text-generation",
+      "base_model:hf-internal-testing/tiny-random-Starcoder2ForCausalLM",
+      "base_model:quantized:hf-internal-testing/tiny-random-Starcoder2ForCausalLM",
+      "region:us"
+    ]
+  },
+  {
+    "id": "Xenova/pythia-160m",
+    "downloads": 11,
+    "likes": 0,
+    "onnx_files": 32,
+    "has_decoder_merged": true,
+    "tags": [
+      "transformers.js",
+      "onnx",
+      "gpt_neox",
+      "text-generation",
+      "base_model:EleutherAI/pythia-160m",
+      "base_model:quantized:EleutherAI/pythia-160m",
+      "region:us"
+    ]
+  },
+  {
+    "id": "Xenova/stablelm-2-zephyr-1_6b",
+    "downloads": 11,
+    "likes": 1,
+    "onnx_files": 3,
+    "has_decoder_merged": true,
+    "tags": [
+      "transformers.js",
+      "onnx",
+      "stablelm",
+      "text-generation",
+      "conversational",
+      "base_model:stabilityai/stablelm-2-zephyr-1_6b",
+      "base_model:quantized:stabilityai/stablelm-2-zephyr-1_6b",
+      "region:us"
+    ]
+  },
+  {
+    "id": "Xenova/tiny-random-StableLmForCausalLM",
+    "downloads": 11,
+    "likes": 0,
+    "onnx_files": 9,
+    "has_decoder_merged": true,
+    "tags": [
+      "transformers.js",
+      "onnx",
+      "stablelm",
+      "text-generation",
+      "base_model:hf-internal-testing/tiny-random-StableLmForCausalLM",
+      "base_model:quantized:hf-internal-testing/tiny-random-StableLmForCausalLM",
+      "region:us"
+    ]
+  },
+  {
+    "id": "Xenova/dlite-v2-774m",
+    "downloads": 10,
+    "likes": 1,
+    "onnx_files": 9,
+    "has_decoder_merged": true,
+    "tags": [
+      "transformers.js",
+      "onnx",
+      "gpt2",
+      "text-generation",
+      "base_model:aisquared/dlite-v2-774m",
+      "base_model:quantized:aisquared/dlite-v2-774m",
+      "region:us"
+    ]
+  },
+  {
+    "id": "Xenova/deepseek-coder-1.3b-base",
+    "downloads": 10,
+    "likes": 1,
+    "onnx_files": 3,
+    "has_decoder_merged": true,
+    "tags": [
+      "transformers.js",
+      "onnx",
+      "llama",
+      "text-generation",
+      "base_model:deepseek-ai/deepseek-coder-1.3b-base",
+      "base_model:quantized:deepseek-ai/deepseek-coder-1.3b-base",
+      "region:us"
+    ]
+  },
+  {
+    "id": "Xenova/tiny-mamba-onnx",
+    "downloads": 10,
+    "likes": 0,
+    "onnx_files": 1,
+    "has_decoder_merged": false,
+    "tags": [
+      "transformers",
+      "onnx",
+      "mamba",
+      "text-generation",
+      "endpoints_compatible",
+      "region:us"
+    ]
+  },
+  {
+    "id": "Xenova/tiny-random-LlamaForCausalLM",
+    "downloads": 10,
+    "likes": 0,
+    "onnx_files": 0,
+    "has_decoder_merged": false,
+    "tags": [
+      "transformers",
+      "safetensors",
+      "llama",
+      "text-generation",
+      "conversational",
+      "arxiv:1910.09700",
+      "text-generation-inference",
+      "endpoints_compatible",
+      "region:us"
+    ]
+  },
+  {
+    "id": "Xenova/gemma2-tokenizer",
+    "downloads": 8,
+    "likes": 0,
+    "onnx_files": 0,
+    "has_decoder_merged": false,
+    "tags": [
+      "transformers",
+      "gemma2",
+      "text-generation",
+      "endpoints_compatible",
+      "region:us"
+    ]
+  },
+  {
+    "id": "Xenova/tiny-random-MistralForCausalLM_external-data",
+    "downloads": 6,
+    "likes": 1,
+    "onnx_files": 2,
+    "has_decoder_merged": false,
+    "tags": [
+      "transformers",
+      "onnx",
+      "mistral",
+      "text-generation",
+      "endpoints_compatible",
+      "region:us"
+    ]
+  },
+  {
+    "id": "Xenova/tiny-random-LlamaForCausalLM-optimized",
+    "downloads": 5,
+    "likes": 0,
+    "onnx_files": 1,
+    "has_decoder_merged": false,
+    "tags": [
+      "transformers",
+      "onnx",
+      "safetensors",
+      "llama",
+      "text-generation",
+      "conversational",
+      "arxiv:1910.09700",
+      "text-generation-inference",
+      "endpoints_compatible",
+      "region:us"
+    ]
+  },
+  {
+    "id": "Xenova/tiny-random-Phi3ForCausalLM-optimized",
+    "downloads": 4,
+    "likes": 0,
+    "onnx_files": 2,
+    "has_decoder_merged": false,
+    "tags": [
+      "transformers",
+      "onnx",
+      "safetensors",
+      "phi3",
+      "text-generation",
+      "conversational",
+      "arxiv:1910.09700",
+      "text-generation-inference",
+      "endpoints_compatible",
+      "region:us"
+    ]
+  }
+]
