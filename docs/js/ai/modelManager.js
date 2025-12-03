@@ -26,7 +26,11 @@ export class ModelManager {
 
         try {
             // Import Transformers.js dynamically (using v2.17.2 which is more stable)
-            const { pipeline } = await import('https://cdn.jsdelivr.net/npm/@xenova/transformers@2.17.2');
+            const { pipeline, env } = await import('https://cdn.jsdelivr.net/npm/@xenova/transformers@2.17.2');
+
+            // Configure to use HuggingFace models (not local)
+            env.allowRemoteModels = true;
+            env.allowLocalModels = false;
 
             // Create text-generation pipeline with progress tracking
             this.pipeline = await pipeline('text-generation', modelName, {
