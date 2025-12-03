@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Model Path Tester</title>
+</head>
+<body>
+    <h1>Testing Model Paths</h1>
+    <div id="results"></div>
+
+    <script type="module">
+        const models = [
+            'onnx-community/Qwen2.5-1.5B',
+            'onnx-community/Phi-3.5-mini-instruct-onnx-web',
+            'onnx-community/Llama-3.2-1B-Instruct-ONNX',
+            'onnx-community/TinyLlama-1.1B-Chat-v1.0-ONNX',
+            'onnx-community/Qwen2.5-0.5B-Instruct',
+            'onnx-community/gemma-3-270m-it-ONNX',
+            'onnx-community/MobileLLM-125M',
+            'Xenova/distilgpt2',
+            'onnx-community/Llama-3.2-3B-Instruct-ONNX',
+            'onnx-community/gemma-3-1b-it-ONNX',
+            'onnx-community/MobileLLM-1B',
+            'Xenova/stablelm-2-zephyr-1_6b',
+            'Xenova/gpt2',
+            'Xenova/gpt2-medium',
+            'onnx-community/Qwen2.5-Coder-0.5B-Instruct'
+        ];
+
+        const resultsDiv = document.getElementById('results');
+
+        async function testModel(modelName) {
+            const resultDiv = document.createElement('div');
+            resultDiv.style.margin = '10px';
+            resultDiv.style.padding = '10px';
+            resultDiv.style.border = '1px solid #ccc';
+
+            try {
+                // Test if config.json exists
+                const configUrl = `https://huggingface.co/${modelName}/resolve/main/config.json`;
+                const response = await fetch(configUrl, { method: 'HEAD' });
+
+                if (response.ok) {
+                    resultDiv.innerHTML = `✅ <strong>${modelName}</strong> - Config exists`;
+                    resultDiv.style.backgroundColor = '#d4edda';
+                } else {
+                    resultDiv.innerHTML = `❌ <strong>${modelName}</strong> - Config not found (${response.status})`;
+                    resultDiv.style.backgroundColor = '#f8d7da';
+                }
+            } catch (error) {
+                resultDiv.innerHTML = `⚠️ <strong>${modelName}</strong> - Error: ${error.message}`;
+                resultDiv.style.backgroundColor = '#fff3cd';
+            }
+
+            resultsDiv.appendChild(resultDiv);
+        }
+
+        async function testAllModels() {
+            resultsDiv.innerHTML = '<p>Testing model paths...</p>';
+            for (const model of models) {
+                await testModel(model);
+                await new Promise(resolve => setTimeout(resolve, 500)); // Rate limit
+            }
+            resultsDiv.insertAdjacentHTML('afterbegin', '<h2>Test Complete</h2>');
+        }
+
+        testAllModels();
+    </script>
+</body>
+</html>

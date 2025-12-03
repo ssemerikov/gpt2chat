@@ -37,13 +37,30 @@ export class ModelManager {
             // Ensure models are always loaded from HuggingFace
             env.backends.onnx.wasm.numThreads = 1; // Single thread for stability
 
-            // Create text-generation pipeline with progress tracking
-            this.pipeline = await pipeline('text-generation', modelName, {
-                quantized: false, // Use non-quantized model for better compatibility
+            // Determine model-specific options
+            const pipelineOptions = {
                 progress_callback: (progress) => {
                     this.handleProgress(progress);
                 }
-            });
+            };
+
+            // Special handling for different model types
+            if (modelName.includes('onnx-community')) {
+                // onnx-community models are pre-quantized, don't override
+                // Let Transformers.js auto-detect the best configuration
+            } else if (modelName.includes('Xenova')) {
+                // Xenova models: use default quantization
+                pipelineOptions.quantized = true;
+            }
+
+            // WebGPU-specific models
+            if (modelName.includes('onnx-web') || modelName.includes('webgpu')) {
+                pipelineOptions.dtype = 'q4f16';
+                pipelineOptions.device = 'webgpu';
+            }
+
+            // Create text-generation pipeline with progress tracking
+            this.pipeline = await pipeline('text-generation', modelName, pipelineOptions);
 
             this.currentModel = modelName;
             this.isLoaded = true;
@@ -62,17 +79,28 @@ export class ModelManager {
             console.error('Error loading model:', error);
             this.isLoaded = false;
 
+            // Provide user-friendly error messages
+            let errorMessage = error.message;
+            if (error.message.includes('Could not locate file')) {
+                errorMessage = `Model "${modelName}" not found. This model may not be available in ONNX format or the path may be incorrect.`;
+            } else if (error.message.includes('out of memory') || error.message.includes('OOM')) {
+                errorMessage = `Not enough memory to load "${modelName}". Try a smaller model or close other browser tabs.`;
+            } else if (error.message.includes('WebGPU')) {
+                errorMessage = `WebGPU not available. This model requires WebGPU support. Try a different model or enable WebGPU in your browser.`;
+            }
+
             if (this.progressCallback) {
                 this.progressCallback({
                     status: 'error',
                     progress: 0,
-                    message: error.message
+                    message: errorMessage
                 });
             }
 
             return {
                 success: false,
-                error: error.message
+                error: errorMessage,
+                originalError: error.message
             };
         }
     }
