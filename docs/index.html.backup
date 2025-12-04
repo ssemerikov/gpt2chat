@@ -148,6 +148,8 @@
 
                     <optgroup label="💬 Chat Optimized (Best for Conversations)">
                         <option value="Xenova/Qwen1.5-0.5B-Chat">Qwen 1.5 Chat (500M, ~300MB)</option>
+                        <option value="Xenova/TinyLlama-1.1B-Chat-v1.0">TinyLlama Chat (1.1B, ~650MB)</option>
+                        <option value="Xenova/Qwen1.5-1.8B-Chat">Qwen 1.8B Chat (1.8B, ~1.2GB)</option>
                     </optgroup>
 
                     <optgroup label="🎓 Instruction-Tuned (LaMini Family)">
@@ -161,14 +163,19 @@
                         <option value="Xenova/gpt-neo-125M">GPT-Neo 125M (~300MB)</option>
                         <option value="Xenova/gpt2">GPT-2 124M (~250MB) - Classic OpenAI</option>
                         <option value="Xenova/llama-160m">Llama 160M (~350MB)</option>
+                        <option value="Xenova/stablelm-2-zephyr-1_6b">StableLM Zephyr (1.6B, ~1GB)</option>
                     </optgroup>
 
                     <optgroup label="💻 Code Generation Specialists">
                         <option value="Xenova/codegen-350M-mono">CodeGen Mono (350M, ~350MB) - Python</option>
                         <option value="Xenova/tiny_starcoder_py">Tiny StarCoder (~400MB) - Python</option>
+                        <option value="Xenova/WizardCoder-1B-V1.0">WizardCoder 1B (~1GB) - Advanced</option>
+                        <option value="Xenova/deepseek-coder-1.3b-instruct">DeepSeek Coder 1.3B (~1.2GB)</option>
                     </optgroup>
 
                     <optgroup label="🏛️ Meta OPT Models">
+                        <option value="Xenova/opt-125m">OPT 125M (~300MB)</option>
+                        <option value="Xenova/opt-350m">OPT 350M (~500MB)</option>
                     </optgroup>
 
                     <optgroup label="🔬 Research Models (Pythia Family)">
@@ -178,6 +185,8 @@
                     <optgroup label="🌍 Multilingual & Specialized">
                         <option value="Xenova/bloomz-560m">BLOOMZ 560M (~600MB) - Multilingual</option>
                         <option value="Xenova/bloom-560m">BLOOM 560M (~600MB) - Multilingual Base</option>
+                        <option value="Xenova/phi-1_5_dev">Phi 1.5 Dev (1.3B, ~1.2GB)</option>
+                        <option value="Xenova/pygmalion-350m">Pygmalion 350M (~500MB) - Roleplay</option>
                         <option value="Xenova/gpt2-large-conversational">GPT-2 Large Conv (~800MB)</option>
                     </optgroup>
 
@@ -206,6 +215,9 @@
                     <optgroup label="💻 Extended Code Models">
                         <option value="Xenova/codegen-350M-multi">CodeGen Multi (~350MB) - Multilang</option>
                         <option value="Xenova/codegen-350M-nl">CodeGen NL (~350MB) - Natural Language</option>
+                        <option value="Xenova/starcoderbase-1b">StarCoder Base 1B (~1GB)</option>
+                        <option value="Xenova/starcoderbase-1b-sft">StarCoder SFT 1B (~1GB)</option>
+                        <option value="Xenova/deepseek-coder-1.3b-base">DeepSeek Coder Base 1.3B (~1.2GB)</option>
                     </optgroup>
 
                     <optgroup label="🎓 Extended LaMini Family">
@@ -214,6 +226,7 @@
                     </optgroup>
 
                     <optgroup label="🦅 Falcon Family">
+                        <option value="Xenova/falcon-rw-1b">Falcon RW 1B (~1GB)</option>
                         <option value="Xenova/tiny-random-falcon-7b">Tiny Falcon Test (~50MB)</option>
                         <option value="Xenova/really-tiny-falcon-testing">Really Tiny Falcon (~50MB)</option>
                     </optgroup>
@@ -224,11 +237,13 @@
                     </optgroup>
 
                     <optgroup label="🔧 Extended StableLM">
+                        <option value="Xenova/stablelm-2-1_6b">StableLM 2 1.6B (~1GB) - Base</option>
                         <option value="Xenova/tiny-random-StableLmForCausalLM">Tiny StableLM Test (~50MB)</option>
                     </optgroup>
 
                     <optgroup label="✨ Extended Qwen Family">
                         <option value="Xenova/Qwen1.5-0.5B">Qwen 1.5 0.5B Base (~300MB)</option>
+                        <option value="Xenova/Qwen1.5-1.8B">Qwen 1.5 1.8B Base (~1.2GB)</option>
                     </optgroup>
 
                     <optgroup label="🧪 Testing & Development Models">

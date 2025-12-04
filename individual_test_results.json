@@ -1,0 +1,556 @@
+{
+  "started_at": "2025-12-04T09:17:06.797892",
+  "completed": [
+    "Xenova/pythia-14m",
+    "Xenova/llama2.c-stories15M",
+    "Xenova/distilgpt2",
+    "Xenova/llama2.c-stories110M",
+    "Xenova/Qwen1.5-0.5B-Chat",
+    "Xenova/TinyLlama-1.1B-Chat-v1.0",
+    "Xenova/Qwen1.5-1.8B-Chat",
+    "Xenova/LaMini-GPT-124M",
+    "Xenova/LaMini-Neo-125M",
+    "Xenova/LaMini-Cerebras-256M",
+    "Xenova/LaMini-GPT-774M",
+    "Xenova/gpt-neo-125M",
+    "Xenova/gpt2",
+    "Xenova/llama-160m",
+    "Xenova/stablelm-2-zephyr-1_6b",
+    "Xenova/codegen-350M-mono",
+    "Xenova/tiny_starcoder_py",
+    "Xenova/WizardCoder-1B-V1.0",
+    "Xenova/deepseek-coder-1.3b-instruct",
+    "Xenova/opt-125m",
+    "Xenova/opt-350m",
+    "Xenova/pythia-410m",
+    "Xenova/bloomz-560m",
+    "Xenova/bloom-560m",
+    "Xenova/phi-1_5_dev",
+    "Xenova/pygmalion-350m",
+    "Xenova/gpt2-large-conversational",
+    "Xenova/slovak-gpt-j-405M",
+    "Xenova/gpt-neo-romanian-125m",
+    "Xenova/kogpt-j-350m",
+    "Xenova/tamillama_tiny_30m",
+    "Xenova/J-350M",
+    "Xenova/llama2.c-stories42M",
+    "Xenova/llama-68m",
+    "Xenova/pythia-31m",
+    "Xenova/pythia-70m",
+    "Xenova/pythia-70m-deduped",
+    "Xenova/pythia-160m",
+    "Xenova/pythia-160m-deduped",
+    "Xenova/pythia-410m-deduped",
+    "Xenova/codegen-350M-multi",
+    "Xenova/codegen-350M-nl",
+    "Xenova/starcoderbase-1b",
+    "Xenova/starcoderbase-1b-sft",
+    "Xenova/deepseek-coder-1.3b-base",
+    "Xenova/LaMini-Cerebras-111M",
+    "Xenova/LaMini-Cerebras-590M",
+    "Xenova/falcon-rw-1b",
+    "Xenova/tiny-random-falcon-7b",
+    "Xenova/really-tiny-falcon-testing",
+    "Xenova/TinyLLama-v0",
+    "Xenova/LiteLlama-460M-1T",
+    "Xenova/stablelm-2-1_6b",
+    "Xenova/tiny-random-StableLmForCausalLM",
+    "Xenova/Qwen1.5-0.5B",
+    "Xenova/Qwen1.5-1.8B",
+    "Xenova/tiny-random-mistral",
+    "Xenova/tiny-random-PhiForCausalLM",
+    "Xenova/tiny-random-Starcoder2ForCausalLM",
+    "Xenova/ipt-350m",
+    "Xenova/dlite-v2-774m"
+  ],
+  "results": {
+    "Xenova/pythia-14m": {
+      "model": "Xenova/pythia-14m",
+      "status": "success",
+      "error": null,
+      "loadTime": "6.4s",
+      "generateTime": "2.2s",
+      "output": "Hello, this is a test.\n\nAnd in the other works.\n\nA:\n\nThis is even the results."
+    },
+    "Xenova/llama2.c-stories15M": {
+      "model": "Xenova/llama2.c-stories15M",
+      "status": "success",
+      "error": null,
+      "loadTime": "4.9s",
+      "generateTime": "1.8s",
+      "output": "Hello, this is a test. You have to do your best on the test and try your best. It is not easy, but"
+    },
+    "Xenova/distilgpt2": {
+      "model": "Xenova/distilgpt2",
+      "status": "success",
+      "error": null,
+      "loadTime": "14.9s",
+      "generateTime": "7.1s",
+      "output": "Hello, this is a test.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
+    },
+    "Xenova/llama2.c-stories110M": {
+      "model": "Xenova/llama2.c-stories110M",
+      "status": "success",
+      "error": null,
+      "loadTime": "16.2s",
+      "generateTime": "3.3s",
+      "output": "Hello, this is a test. It is a fun game. Do you want to play?\"\nSara and Ben look at each"
+    },
+    "Xenova/Qwen1.5-0.5B-Chat": {
+      "model": "Xenova/Qwen1.5-0.5B-Chat",
+      "status": "success",
+      "error": null,
+      "loadTime": "49.2s",
+      "generateTime": "0.8s",
+      "output": "Hello, this is a test."
+    },
+    "Xenova/TinyLlama-1.1B-Chat-v1.0": {
+      "model": "Xenova/TinyLlama-1.1B-Chat-v1.0",
+      "status": "failed",
+      "error": "FAILED: offset is out of bounds",
+      "loadTime": null,
+      "generateTime": null,
+      "output": null
+    },
+    "Xenova/Qwen1.5-1.8B-Chat": {
+      "model": "Xenova/Qwen1.5-1.8B-Chat",
+      "status": "error",
+      "error": "page.waitForFunction: Timeout 120000ms exceeded.",
+      "loadTime": null,
+      "generateTime": null,
+      "output": null
+    },
+    "Xenova/LaMini-GPT-124M": {
+      "model": "Xenova/LaMini-GPT-124M",
+      "status": "success",
+      "error": null,
+      "loadTime": "17.6s",
+      "generateTime": "3.1s",
+      "output": "Hello, this is a test. The test is a pre-release, pre-release, pre-release, pre-release,"
+    },
+    "Xenova/LaMini-Neo-125M": {
+      "model": "Xenova/LaMini-Neo-125M",
+      "status": "success",
+      "error": null,
+      "loadTime": "17.0s",
+      "generateTime": "2.3s",
+      "output": "Hello, this is a test.\nI am an AI language model, so I can't test my work."
+    },
+    "Xenova/LaMini-Cerebras-256M": {
+      "model": "Xenova/LaMini-Cerebras-256M",
+      "status": "success",
+      "error": null,
+      "loadTime": "29.6s",
+      "generateTime": "3.1s",
+      "output": "Hello, this is a test. \n\nHere's the full example:\n\nI've been working on a project for a"
+    },
+    "Xenova/LaMini-GPT-774M": {
+      "model": "Xenova/LaMini-GPT-774M",
+      "status": "success",
+      "error": null,
+      "loadTime": "81.5s",
+      "generateTime": "0.7s",
+      "output": "Hello, this is a test."
+    },
+    "Xenova/gpt-neo-125M": {
+      "model": "Xenova/gpt-neo-125M",
+      "status": "success",
+      "error": null,
+      "loadTime": "16.3s",
+      "generateTime": "2.4s",
+      "output": "Hello, this is a test. I\u2019m trying to get the page to load but I get an error saying:\n\n"
+    },
+    "Xenova/gpt2": {
+      "model": "Xenova/gpt2",
+      "status": "success",
+      "error": null,
+      "loadTime": "15.9s",
+      "generateTime": "2.5s",
+      "output": "Hello, this is a test.\n\nPlease note that all tests are under the supervision of an independent developer.\n\nA few"
+    },
+    "Xenova/llama-160m": {
+      "model": "Xenova/llama-160m",
+      "status": "success",
+      "error": null,
+      "loadTime": "19.1s",
+      "generateTime": "1.5s",
+      "output": "Hello, this is a test. What is your favorite thing about the new site?\nWhat is your favorite thing about the new site"
+    },
+    "Xenova/stablelm-2-zephyr-1_6b": {
+      "model": "Xenova/stablelm-2-zephyr-1_6b",
+      "status": "error",
+      "error": "page.waitForFunction: Timeout 120000ms exceeded.",
+      "loadTime": null,
+      "generateTime": null,
+      "output": null
+    },
+    "Xenova/codegen-350M-mono": {
+      "model": "Xenova/codegen-350M-mono",
+      "status": "success",
+      "error": null,
+      "loadTime": "45.6s",
+      "generateTime": "2.9s",
+      "output": "Hello, this is a test.\n        \"\"\"\n        resp = self.client.get('/', **self.header_"
+    },
+    "Xenova/tiny_starcoder_py": {
+      "model": "Xenova/tiny_starcoder_py",
+      "status": "success",
+      "error": null,
+      "loadTime": "33.8s",
+      "generateTime": "2.2s",
+      "output": "Hello, this is a test.\n        :param kwargs: Key-word arguments.\n        :param status_code: HTTP 2"
+    },
+    "Xenova/WizardCoder-1B-V1.0": {
+      "model": "Xenova/WizardCoder-1B-V1.0",
+      "status": "error",
+      "error": "page.waitForFunction: Timeout 120000ms exceeded.",
+      "loadTime": null,
+      "generateTime": null,
+      "output": null
+    },
+    "Xenova/deepseek-coder-1.3b-instruct": {
+      "model": "Xenova/deepseek-coder-1.3b-instruct",
+      "status": "error",
+      "error": "page.waitForFunction: Timeout 120000ms exceeded.",
+      "loadTime": null,
+      "generateTime": null,
+      "output": null
+    },
+    "Xenova/opt-125m": {
+      "model": "Xenova/opt-125m",
+      "status": "failed",
+      "error": "FAILED: failed to call OrtRun(). error code = 1.",
+      "loadTime": null,
+      "generateTime": null,
+      "output": null
+    },
+    "Xenova/opt-350m": {
+      "model": "Xenova/opt-350m",
+      "status": "failed",
+      "error": "FAILED: failed to call OrtRun(). error code = 1.",
+      "loadTime": null,
+      "generateTime": null,
+      "output": null
+    },
+    "Xenova/pythia-410m": {
+      "model": "Xenova/pythia-410m",
+      "status": "success",
+      "error": null,
+      "loadTime": "45.8s",
+      "generateTime": "3.5s",
+      "output": "Hello, this is a test.\n\nI want to know that when the user is not connected to the network, the current page"
+    },
+    "Xenova/bloomz-560m": {
+      "model": "Xenova/bloomz-560m",
+      "status": "success",
+      "error": null,
+      "loadTime": "62.7s",
+      "generateTime": "15.0s",
+      "output": "Hello, this is a test. Do this test first, then, then, then, then, then, then, then, then"
+    },
+    "Xenova/bloom-560m": {
+      "model": "Xenova/bloom-560m",
+      "status": "success",
+      "error": null,
+      "loadTime": "64.0s",
+      "generateTime": "14.4s",
+      "output": "Hello, this is a test. Do\nsudo vim hl hl hl hl hl hl hl hl hl hl hl hl hl hl hl hl"
+    },
+    "Xenova/phi-1_5_dev": {
+      "model": "Xenova/phi-1_5_dev",
+      "status": "error",
+      "error": "page.waitForFunction: Timeout 120000ms exceeded.",
+      "loadTime": null,
+      "generateTime": null,
+      "output": null
+    },
+    "Xenova/pygmalion-350m": {
+      "model": "Xenova/pygmalion-350m",
+      "status": "failed",
+      "error": "FAILED: failed to call OrtRun(). error code = 1.",
+      "loadTime": null,
+      "generateTime": null,
+      "output": null
+    },
+    "Xenova/gpt2-large-conversational": {
+      "model": "Xenova/gpt2-large-conversational",
+      "status": "success",
+      "error": null,
+      "loadTime": "90.6s",
+      "generateTime": "11.0s",
+      "output": "Hello, this is a test.\n\nTo run it as a test, you need to run the following command:\n\n./"
+    },
+    "Xenova/slovak-gpt-j-405M": {
+      "model": "Xenova/slovak-gpt-j-405M",
+      "status": "success",
+      "error": null,
+      "loadTime": "46.1s",
+      "generateTime": "4.9s",
+      "output": "Hello, this is a test. You have any help.Sladk\u00e9 dobroty z cel\u00e9ho sveta\n\nNiet nad"
+    },
+    "Xenova/gpt-neo-romanian-125m": {
+      "model": "Xenova/gpt-neo-romanian-125m",
+      "status": "success",
+      "error": null,
+      "loadTime": "19.3s",
+      "generateTime": "4.8s",
+      "output": "Hello, this is a test. II.2.2.2.1.2.2.1. \u201eAnima"
+    },
+    "Xenova/kogpt-j-350m": {
+      "model": "Xenova/kogpt-j-350m",
+      "status": "success",
+      "error": null,
+      "loadTime": "42.1s",
+      "generateTime": "4.7s",
+      "output": "Hello, this is a test. -3 (\uc774\ub984) \uae30\uc790. \u25b6(\uc774\ub984) \uae30\uc790. \uc548\ub155\ud558\uc138\uc694. (\uc774\ub984)\uc785\ub2c8\ub2e4"
+    },
+    "Xenova/tamillama_tiny_30m": {
+      "model": "Xenova/tamillama_tiny_30m",
+      "status": "success",
+      "error": null,
+      "loadTime": "8.5s",
+      "generateTime": "1.2s",
+      "output": "Hello, this is a test. It can love it.\nFeatures: Dialogue\nStory: \nTom and Anna are friends."
+    },
+    "Xenova/J-350M": {
+      "model": "Xenova/J-350M",
+      "status": "success",
+      "error": null,
+      "loadTime": "41.4s",
+      "generateTime": "3.9s",
+      "output": "Hello, this is a test.\n\n\"\"\"\nimport unittest\n\nclass Test_Func(unittest."
+    },
+    "Xenova/llama2.c-stories42M": {
+      "model": "Xenova/llama2.c-stories42M",
+      "status": "success",
+      "error": null,
+      "loadTime": "11.3s",
+      "generateTime": "1.6s",
+      "output": "Hello, this is a test. It is a way to see how strong you are. It will not hurt you. It will just"
+    },
+    "Xenova/llama-68m": {
+      "model": "Xenova/llama-68m",
+      "status": "success",
+      "error": null,
+      "loadTime": "9.1s",
+      "generateTime": "1.2s",
+      "output": "Hello, this is a test. This is a simple, well-written, no-hours-you can make a lot of"
+    },
+    "Xenova/pythia-31m": {
+      "model": "Xenova/pythia-31m",
+      "status": "success",
+      "error": null,
+      "loadTime": "6.7s",
+      "generateTime": "1.2s",
+      "output": "Hello, this is a test.\n\nI also want to get the result of the test,\n\nI then get the result"
+    },
+    "Xenova/pythia-70m": {
+      "model": "Xenova/pythia-70m",
+      "status": "success",
+      "error": null,
+      "loadTime": "10.5s",
+      "generateTime": "1.6s",
+      "output": "Hello, this is a test. Who is in the middle of a list of the people who will make you to meet you?\n"
+    },
+    "Xenova/pythia-70m-deduped": {
+      "model": "Xenova/pythia-70m-deduped",
+      "status": "success",
+      "error": null,
+      "loadTime": "11.0s",
+      "generateTime": "1.8s",
+      "output": "Hello, this is a test. The test is a test, the test is a test that is the test that is the test that"
+    },
+    "Xenova/pythia-160m": {
+      "model": "Xenova/pythia-160m",
+      "status": "success",
+      "error": null,
+      "loadTime": "21.5s",
+      "generateTime": "2.8s",
+      "output": "Hello, this is a test. There is no 'unicorn' that comes to my mind.\n\n\"It is a girl"
+    },
+    "Xenova/pythia-160m-deduped": {
+      "model": "Xenova/pythia-160m-deduped",
+      "status": "success",
+      "error": null,
+      "loadTime": "21.9s",
+      "generateTime": "2.5s",
+      "output": "Hello, this is a test. I've been a bit of a collector of things to look for as I've always wanted to know"
+    },
+    "Xenova/pythia-410m-deduped": {
+      "model": "Xenova/pythia-410m-deduped",
+      "status": "success",
+      "error": null,
+      "loadTime": "51.2s",
+      "generateTime": "5.5s",
+      "output": "Hello, this is a test.\nhaskell-compiler-mainline is my build and executable that I am using.\n$"
+    },
+    "Xenova/codegen-350M-multi": {
+      "model": "Xenova/codegen-350M-multi",
+      "status": "success",
+      "error": null,
+      "loadTime": "48.6s",
+      "generateTime": "3.1s",
+      "output": "Hello, this is a test.\n\t\t\treturn true\n\t\t}\n\t}\n\treturn false\n}\n\n// New"
+    },
+    "Xenova/codegen-350M-nl": {
+      "model": "Xenova/codegen-350M-nl",
+      "status": "success",
+      "error": null,
+      "loadTime": "55.8s",
+      "generateTime": "5.5s",
+      "output": "Hello, this is a test. You can see what your code is doing by looking at\n\nA.\n\nB.\n"
+    },
+    "Xenova/starcoderbase-1b": {
+      "model": "Xenova/starcoderbase-1b",
+      "status": "error",
+      "error": "page.waitForFunction: Timeout 120000ms exceeded.",
+      "loadTime": null,
+      "generateTime": null,
+      "output": null
+    },
+    "Xenova/starcoderbase-1b-sft": {
+      "model": "Xenova/starcoderbase-1b-sft",
+      "status": "error",
+      "error": "page.waitForFunction: Timeout 120000ms exceeded.",
+      "loadTime": null,
+      "generateTime": null,
+      "output": null
+    },
+    "Xenova/deepseek-coder-1.3b-base": {
+      "model": "Xenova/deepseek-coder-1.3b-base",
+      "status": "error",
+      "error": "page.waitForFunction: Timeout 120000ms exceeded.",
+      "loadTime": null,
+      "generateTime": null,
+      "output": null
+    },
+    "Xenova/LaMini-Cerebras-111M": {
+      "model": "Xenova/LaMini-Cerebras-111M",
+      "status": "success",
+      "error": null,
+      "loadTime": "20.7s",
+      "generateTime": "6.9s",
+      "output": "Hello, this is a test.\n\nI'm sorry, but I don't know what you're asking for. Can you please"
+    },
+    "Xenova/LaMini-Cerebras-590M": {
+      "model": "Xenova/LaMini-Cerebras-590M",
+      "status": "success",
+      "error": null,
+      "loadTime": "73.8s",
+      "generateTime": "5.7s",
+      "output": "Hello, this is a test. Thank you for the help."
+    },
+    "Xenova/falcon-rw-1b": {
+      "model": "Xenova/falcon-rw-1b",
+      "status": "error",
+      "error": "page.waitForFunction: Timeout 120000ms exceeded.",
+      "loadTime": null,
+      "generateTime": null,
+      "output": null
+    },
+    "Xenova/tiny-random-falcon-7b": {
+      "model": "Xenova/tiny-random-falcon-7b",
+      "status": "success",
+      "error": null,
+      "loadTime": "15.2s",
+      "generateTime": "7.5s",
+      "output": "Hello, this is a test. pinched\ufffdfounder noiseholeskiller Henceconstruct vikt\u4e0e clusteringMagg RavRicepng faithfulnessfell assertachy\u4ee5"
+    },
+    "Xenova/really-tiny-falcon-testing": {
+      "model": "Xenova/really-tiny-falcon-testing",
+      "status": "success",
+      "error": null,
+      "loadTime": "2.6s",
+      "generateTime": "2.3s",
+      "output": "Hello, this is a test.ustraldownsster Hood sunkposacter pediatric urg Geography offspring v\u00e9rit\u00e9 knPremier\u7acb fraught OpeningUNG presidency Opening"
+    },
+    "Xenova/TinyLLama-v0": {
+      "model": "Xenova/TinyLLama-v0",
+      "status": "success",
+      "error": null,
+      "loadTime": "4.9s",
+      "generateTime": "0.8s",
+      "output": "Hello, this is a test.\n that was a very impressive story about the party."
+    },
+    "Xenova/LiteLlama-460M-1T": {
+      "model": "Xenova/LiteLlama-460M-1T",
+      "status": "success",
+      "error": null,
+      "loadTime": "52.0s",
+      "generateTime": "7.7s",
+      "output": "Hello, this is a test. But I need you to read this for yourself and not for me.\n\n(*)\nThis"
+    },
+    "Xenova/stablelm-2-1_6b": {
+      "model": "Xenova/stablelm-2-1_6b",
+      "status": "error",
+      "error": "page.waitForFunction: Timeout 120000ms exceeded.",
+      "loadTime": null,
+      "generateTime": null,
+      "output": null
+    },
+    "Xenova/tiny-random-StableLmForCausalLM": {
+      "model": "Xenova/tiny-random-StableLmForCausalLM",
+      "status": "success",
+      "error": null,
+      "loadTime": "2.4s",
+      "generateTime": "0.3s",
+      "output": "Hello, this is a test.ond rem Sh as\ufffd wasI intoamie\ufffdactoc\u0017 Inewiesab\u000fport"
+    },
+    "Xenova/Qwen1.5-0.5B": {
+      "model": "Xenova/Qwen1.5-0.5B",
+      "status": "success",
+      "error": null,
+      "loadTime": "54.3s",
+      "generateTime": "17.5s",
+      "output": "Hello, this is a test. I'm using the [Angular 9](https://angular.io/guide/developing-angular-app"
+    },
+    "Xenova/Qwen1.5-1.8B": {
+      "model": "Xenova/Qwen1.5-1.8B",
+      "status": "error",
+      "error": "page.waitForFunction: Timeout 120000ms exceeded.",
+      "loadTime": null,
+      "generateTime": null,
+      "output": null
+    },
+    "Xenova/tiny-random-mistral": {
+      "model": "Xenova/tiny-random-mistral",
+      "status": "success",
+      "error": null,
+      "loadTime": "2.4s",
+      "generateTime": "1.0s",
+      "output": "Hello, this is a test. fonctiontimermot aQuanttimerkeitugno born summar six\u8bf4Policy!(\ufffd\ud83e\udd70\u00e4ng retry\ufffd\u5c3d"
+    },
+    "Xenova/tiny-random-PhiForCausalLM": {
+      "model": "Xenova/tiny-random-PhiForCausalLM",
+      "status": "success",
+      "error": null,
+      "loadTime": "1.9s",
+      "generateTime": "0.2s",
+      "output": "Hello, this is a test. bec\ufffdiverite allif also Un6 wouldird 199andack were sc exp_ickered"
+    },
+    "Xenova/tiny-random-Starcoder2ForCausalLM": {
+      "model": "Xenova/tiny-random-Starcoder2ForCausalLM",
+      "status": "success",
+      "error": null,
+      "loadTime": "2.4s",
+      "generateTime": "0.2s",
+      "output": "Hello, this is a test.ober only\ufffd 11\ufffd 11iceince wellrouessrictiaopast this 000\ufffd being"
+    },
+    "Xenova/ipt-350m": {
+      "model": "Xenova/ipt-350m",
+      "status": "success",
+      "error": null,
+      "loadTime": "40.4s",
+      "generateTime": "7.1s",
+      "output": "Hello, this is a test. For only 10 members you are free to learn more about how to use it"
+    },
+    "Xenova/dlite-v2-774m": {
+      "model": "Xenova/dlite-v2-774m",
+      "status": "success",
+      "error": null,
+      "loadTime": "87.7s",
+      "generateTime": "12.5s",
+      "output": "Hello, this is a test. I've put together a list of questions for you. Please answer as honestly as you can.\n"
+    }
+  }
+}
